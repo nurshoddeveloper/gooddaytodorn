@@ -1,0 +1,20 @@
+
+
+googlePlayServicesVersion = "11.0.4" // for fcm
+supportLibVersion = "25.2.0"
+
+
+
+check dependencies command:
+
+andrew@apc /var/www/goodday2_mobile_app_rn/android/app $ ~/.gradle/wrapper/dists/gradle-2.14.1-all/8bnwg5hd3w55iofp58khbp6yv/gradle-2.14.1/bin/gradle dependencies
+
+
+
+top project settings overwrite the inners:
+https://stackoverflow.com/questions/42374151/all-com-android-support-libraries-must-use-the-exact-same-version-specification
+
+
+
+https://medium.com/google-developers/picking-your-compilesdkversion-minsdkversion-targetsdkversion-a098a0341ebd
+minSdkVersion <= targetSdkVersion <= compileSdkVersion
